@@ -1,116 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Surendra Varma Sagi | Data Engineer Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venkata Sai Pavan Guduri | Data Engineer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, section, footer { padding: 60px 20px; text-align: center; }
+    header { background-color: #1f2937; color: white; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; }
+    section:nth-child(even) { background-color: #f3f4f6; }
+    h2 { margin-bottom: 20px; }
+    .skills span { margin: 5px; display: inline-block; padding: 10px; background: #e5e7eb; border-radius: 5px; }
+    .contact a { margin: 10px; color: #1f2937; font-size: 24px; text-decoration: none; }
+    .projects .project { margin-bottom: 40px; }
+  </style>
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>Surendra Varma Sagi</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <section id="about">
-    <img src="images/profile.jpg" alt="Surendra Varma Sagi" class="profile-img"/>
-    <h2>About Me</h2>
-    <p>
-      Data Engineer based in Cleveland, OH, with a passion for building robust data pipelines and delivering actionable business insights. MS in Business Analytics and Information Systems from the University of South Florida. Experienced in cloud data engineering, real-time analytics, and data visualization.
-    </p>
-  </section>
+<header>
+  <h1>Venkata Sai Pavan Guduri</h1>
+  <p>Data Engineer | BI Developer | Azure & Tableau Enthusiast</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-  <section id="experience">
-    <h2>Professional Experience</h2>
-    <div class="job">
-      <h3>Hubbell Incorporated – Data Engineer <span>Sep 2023 – Present</span></h3>
-      <ul>
-        <li>Designed scalable ETL pipelines on Azure Databricks, processing 10+ TBs of data, optimizing Spark job performance by 30%.</li>
-        <li>Integrated real-time streaming pipelines with Databricks Structured Streaming and Azure Event Hubs, enabling sub-5 second event ingestion for 100,000+ customer units.</li>
-        <li>Built automated alerting with Azure Monitor and Databricks REST APIs, achieving 99.9% uptime and reducing incident detection from 2 hours to under 5 minutes.</li>
-        <li>Administered Spark Streaming workflows for millions of daily JSON records, transforming raw payloads into structured KPIs, accelerating system performance insights by 20%.</li>
-        <li>Revamped 15+ Tableau dashboards, improving client usage by 40% and earning commendations from key clients.</li>
-        <li>Developed a Windowsform app (C#, SQL) to automate real-time data ingestion into SQL Server, reducing manual entry by 70%.</li>
-        <li>Created 30+ complex SQL scripts in Azure Databricks for ad-hoc reporting, halving query response times for business-critical analytics.</li>
-      </ul>
+<section id="about">
+  <h2>About Me</h2>
+  <p>I’m a Data Engineer with a Master’s in Business Analytics and 4+ years of experience designing scalable data pipelines, building BI dashboards, and solving real-world problems in healthcare and finance.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="project">
+      <h3>Project Title 1</h3>
+      <p>Description goes here. (e.g., Technologies used, business impact)</p>
     </div>
-    <div class="job">
-      <h3>L&T Technology Services – Data Analyst <span>Aug 2020 – June 2021</span></h3>
-      <ul>
-        <li>Analyzed 5TB+ datasets from Amazon Redshift, Oracle, MongoDB for business intelligence and operational reporting.</li>
-        <li>Developed Python scripts in Azure Data Factory, improving data processing efficiency by 15%.</li>
-        <li>Wrote complex SQL/NoSQL queries to identify trends and anomalies, enabling 20% better decision-making.</li>
-        <li>Utilized Tableau for time series analysis, reducing customer churn by 10%.</li>
-        <li>Executed A/B tests to optimize promotional strategies, boosting customer acquisition by 25%.</li>
-        <li>Automated mail delivery systems using VBA/Macros in Excel.</li>
-        <li>Created ad-hoc reports and dashboards with SQL, Power BI, Tableau, and Excel.</li>
-        <li>Worked in Agile (Scrum) teams to deliver data solutions on time.</li>
-      </ul>
+    <div class="project">
+      <h3>Project Title 2</h3>
+      <p>Description goes here. (e.g., Technologies used, business impact)</p>
     </div>
-    <div class="job">
-      <h3>L&T Technology Services – Associate Data Analyst <span>Aug 2019 – Aug 2020</span></h3>
-      <ul>
-        <li>Optimized data models and queries in Amazon Redshift and Oracle, reducing execution time by 40%.</li>
-        <li>Integrated semi-structured NoSQL data (DynamoDB) with warehouse data for unified reporting.</li>
-        <li>Performed data transformations in Power Query Editor and Power BI, reducing patient data error rates by 25%.</li>
-        <li>Collaborated with clinical teams to define KPIs and dashboards, improving healthcare quality and reducing hospital stay by 30%.</li>
-      </ul>
+    <div class="project">
+      <h3>Project Title 3</h3>
+      <p>Description goes here. (e.g., Technologies used, business impact)</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="projects">
-    <h2>Research & Projects</h2>
-    <ul>
-      <li><strong>Analyzing Factors Affecting Suicide Rates in the US</strong> (R, Data Modeling, ML, t-test)</li>
-      <li><strong>Crime Rate & Unemployment Analysis in Florida</strong> (Tableau, Prep Builder)</li>
-      <li><strong>Healthcare Advanced Database Management</strong> (SQL Server, SSIS, PowerBI, Python)</li>
-    </ul>
-    <p>
-      More projects and code samples available on <a href="https://github.com/Surendravarma500" target="_blank">GitHub</a>.
-    </p>
-  </section>
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>Python</span><span>SQL</span><span>SSIS</span><span>Azure Data Factory</span>
+    <span>Databricks</span><span>Tableau</span><span>Power BI</span><span>Snowflake</span>
+    <span>Delta Lake</span><span>Redshift</span><span>Git</span>
+  </div>
+</section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li><strong>Programming:</strong> Python, R, SQL</li>
-      <li><strong>Databases:</strong> SQL Server, Oracle, MySQL, Amazon S3, MongoDB, DynamoDB</li>
-      <li><strong>Data Manipulation & Visualization:</strong> Pandas, NumPy, dplyr, Matplotlib, Seaborn, ggplot, DAX, Slicer</li>
-      <li><strong>Tools:</strong> Tableau, AWS Quicksight, PowerBI, Excel, Snowflake, Azure Data Factory, Power Query, Tableau Prep, Looker, Salesforce</li>
-      <li><strong>Orchestration:</strong> Databricks Workflows, Airflow, Dagster</li>
-      <li><strong>Project Management:</strong> Agile, Scrum, Jira, Git</li>
-      <li><strong>Version Control:</strong> GitHub, Azure DevOps</li>
-      <li><strong>Soft Skills:</strong> Problem-solving, Communication, Collaboration, Critical Thinking, Attention to Detail, Presentation</li>
-    </ul>
-    <h3>Certifications</h3>
-    <ul>
-      <li>Tableau Certified Data Analyst (Exam: May 15th)</li>
-      <li>Google Data Analytics Professional Certificate</li>
-      <li>SQL Advanced – HackerRank</li>
-    </ul>
-  </section>
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Let’s connect!</p>
+  <div class="contact">
+    <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://github.com/yourgithub" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+</section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>
-      <strong>Location:</strong> Cleveland, OH<br>
-      <strong>Email:</strong> <a href="mailto:Surendravarma500@gmail.com">Surendravarma500@gmail.com</a><br>
-      <strong>Phone:</strong> <a href="tel:+18137090906">+1 813-709-0906</a><br>
-      <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/your-linkedin" target="_blank">linkedin.com/in/your-linkedin</a><br>
-      <strong>GitHub:</strong> <a href="https://github.com/Surendravarma500" target="_blank">github.com/Surendravarma500</a>
-    </p>
-  </section>
+<footer>
+  <p>&copy; 2025 Venkata Sai Pavan Guduri. All rights reserved.</p>
+</footer>
 
-  <footer>
-    <p>&copy; 2025 Surendra Varma Sagi</p>
-  </footer>
 </body>
 </html>
